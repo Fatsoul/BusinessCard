@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.josephkroon.businesscard.MainActivity"
+    android:background="@drawable/code">
+
+
+    <TextView
+        android:id="@+id/main_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Game of Kroons"
+        android:background="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        />
+
+    <ImageView
+        android:id="@+id/dice"
+        android:src="@drawable/dice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/main_title"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="centerInside"
+        />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Three brothers fulfilling their lifelong dream of owning a gaming store that promises a shopping experience full of:"
+        android:layout_below="@id/dice"
+        android:background="@android:color/black"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        />
+
+    <TextView
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Judgement!"
+        android:layout_below="@id/description"
+        android:background="@android:color/black"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Condescension!"
+        android:layout_below="@id/b1"
+        android:background="@android:color/black"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/b3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sarcastic remarks!"
+        android:layout_below="@id/b2"
+        android:background="@android:color/black"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="8dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For more info, call 1-800-876-5309"
+        android:background="@android:color/black"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/b3"
+        android:layout_marginTop="8dp"
+        />
+</RelativeLayout>
